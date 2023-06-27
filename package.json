@@ -1,31 +1,23 @@
 {
-  "name": "reactjs-vite-tailwindcss-boilerplate",
+  "name": "places_app",
   "description": "This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "author": {
-    "name": "João Paulo Moraes",
-    "email": "joaopaulomoraes@outlook.com",
-    "url": "https://github.com/joaopaulomoraes"
-  },
-  "bugs": {
-    "url": "https://github.com/joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate/issues",
-    "email": "joaopaulomoraes@outlook.com"
+    "name": "Az1nn",
+    "url": "https://github.com/az1nn"
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "serve": "vite preview",
-    "test": "vitest",
-    "test:ui": "vitest --ui",
-    "lint": "eslint src --max-warnings=0",
-    "typecheck": "tsc --project tsconfig.json --noEmit"
+    "build": "tsc && vite build"
   },
   "dependencies": {
     "@googlemaps/react-wrapper": "^1.1.35",
     "@react-google-maps/api": "^2.18.1",
+    "google-map-react": "^2.2.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
@@ -34,6 +26,7 @@
     "@babel/preset-typescript": "^7.22.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
+    "@types/google-map-react": "^2.1.7",
     "@types/node": "^20.3.1",
     "@types/react": "^18.2.12",
     "@types/react-dom": "^18.2.5",
