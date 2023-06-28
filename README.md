@@ -40,9 +40,9 @@ pnpm run dev
 
 Follow the .env.example file and add the Google Maps API Key
 
-### Deploy Demo
+## Deploy Demo (Netlify)
 
-[Link](https://maps-app-az1nn.netlify.app/)
+[Acessar](https://maps-app-az1nn.netlify.app/)
 
 ## License
 
