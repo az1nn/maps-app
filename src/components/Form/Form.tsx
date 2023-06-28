@@ -5,7 +5,9 @@ const Form = (props: any) => {
   return (
     <div>
       <div className="flex flex-col flex-wrap items-center">
-        <p className="pb-4 pt-6 text-xl font-bold text-white">Add a new one:</p>
+        <p className="pb-4 pt-6 text-2xl font-bold text-white">
+          Add a new one:
+        </p>
         <div className="flex w-full flex-row">
           <div className="flex w-1/2 flex-col items-center">
             <div className="my-4 flex w-1/2 justify-between">
@@ -54,7 +56,7 @@ const Form = (props: any) => {
           </div>
         </div>
         <button
-          className="mt-4 rounded border bg-white px-8 py-2 font-bold hover:scale-105"
+          className="my-4 rounded border bg-white px-8 py-2 font-bold hover:scale-105"
           onClick={() => {
             dispatch({
               lat: Number(formState.lat),
