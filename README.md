@@ -40,6 +40,10 @@ pnpm run dev
 
 Follow the .env.example file and add the Google Maps API Key
 
+### Deploy Demo
+
+[Link](https://maps-app-az1nn.netlify.app/)
+
 ## License
 
 This project is licensed under the MIT License.
