@@ -36,6 +36,10 @@ pnpm i
 pnpm run dev
 ```
 
+### Env Vars
+
+Follow the .env.example file and add the Google Maps API Key
+
 ## License
 
 This project is licensed under the MIT License.
