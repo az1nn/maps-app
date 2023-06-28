@@ -4,7 +4,7 @@ import { BiSolidPin } from 'react-icons/bi'
 
 import { IMark } from 'components/App'
 
-import './Map.css'
+import './MapContainer.css'
 
 export function MarkCard(props: any) {
   const { text, lat, lng } = props
